@@ -1,17 +1,4 @@
 describe("template spec", () => {
-  beforeEach(() => {
-    cy.intercept(
-      {
-        url: "**",
-        middleware: true,
-      },
-      (req) => {
-        req.on("response", (res) => {
-          res.setThrottle(1208);
-        });
-      }
-    );
-  });
   it("bfo-website", () => {
     cy.visit("https://berufsbildung-vs.ch");
     cy.viewport(1920, 1080);
