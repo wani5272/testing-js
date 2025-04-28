@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "mocha \"tests/**.test.js\""
+  },
+  "devDependencies": {
+    "cypress": "^14.3.0",
+    "mocha": "^11.1.0"
+  }
+}
