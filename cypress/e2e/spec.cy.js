@@ -1,5 +1,5 @@
 describe("template spec", () => {
-  it("passes", () => {
+  it("bfo-website", () => {
     cy.visit("https://berufsbildung-vs.ch");
     cy.viewport(1920, 1080);
     cy.get(
